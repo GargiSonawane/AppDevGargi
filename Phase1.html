@@ -1,24 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html id = "hide-completed"> 
+<link rel="Style" href="Style.css">
   <head>
     <title>TO-DO List</title>
   </head>
   <body>
     <main>
+      <div id = 'labeled-input'>
         <label for="new-task">New Task<br></label>
         <input type="text" id="new-task">
         <button type="button">Add</button>
+      </div>
       <ul>
+        <hr>
        <input type="checkbox" id="dog" value="dog">
+       <span class="task-options-container">&vellip;
+        <div class="task-options">
+          <div class="actual-option">delete task</div>
+          <div class="actual-option">edit task</div>
+        </div>
+      </span>
        <label for="dog">Walk the dog<br></label>
+       <hr>
        <input type="checkbox" id="plants" value="plants">
+       <span class="task-options-container">&vellip;
+        <div class="task-options">
+          <div class="actual-option">delete task</div>
+          <div class="actual-option">edit task</div>
+        </div>
+      </span>
        <label for="plants">Water Plants<br></label>
+       <hr>
        <input type="checkbox" id="run" value="run">
+       <span class="task-options-container">&vellip;
+        <div class="task-options">
+          <div class="actual-option">delete task</div>
+          <div class="actual-option">edit task</div>
+        </div>
+      </span>
        <label for="run">go on a run<br></label>
+       <hr>
        <input type="checkbox" id="hw" value="hw">
+       <span class="task-options-container">&vellip;
+        <div class="task-options">
+          <div class="actual-option">delete task</div>
+          <div class="actual-option">edit task</div>
+        </div>
+      </span>
        <label for="hw">Do homework<br></label>
+       <hr>
        <input type="checkbox" id="room" value="room">
+       <span class="task-options-container">&vellip;
+        <div class="task-options">
+          <div class="actual-option">delete task</div>
+          <div class="actual-option">edit task</div>
+        </div>
+      </span>
        <label for="room">clean room<br></label>
+       <hr>
       </ul>
       <button type = "button">Hide completed tasks</button>
     </main>
